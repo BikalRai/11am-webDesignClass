@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Display</title>
+	<style type="text/css">
+		div {
+/*			by default, block elements have display of block*/
+			display: block; 
+
+/*			setting custom display*/
+			display: inline;
+			height: 50px;
+			background-color: red;
+			width: 50%;
+		}
+
+		h1 {
+			display: inline;
+			width: 50%;
+			border: 1px solid;
+		}
+
+		span {
+/*			by default, inline elements have display of inline*/
+			display: inline;
+
+/*			setting custom display*/
+			display: block;
+			background-color: green;
+			margin-right: 20px;
+			height: 100px;
+			width: 100px;
+		}
+
+		section {
+			background-color: blue;
+			color: white;
+			text-align: center;
+			font-weight: bold;
+			display: inline-block;
+			width: 250px;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- block elements -->
+	<div>Div</div>
+	<h1>h1</h1>
+
+	<!-- inline elements -->
+	<span>Span 1</span>
+	<span>Span 2</span>
+
+	<section>section 1</section>
+	<section>section 2</section>
+	<section>section 3</section>
+	<section>section 4</section>
+
+
+
+</body>
+</html>
