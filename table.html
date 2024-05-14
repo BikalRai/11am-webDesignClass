@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table</title>
+	<style type="text/css">
+		table, th, td {
+			border-collapse: collapse;
+			border: 1px solid orangered;
+			padding: 5px;
+			margin-bottom: 16px;
+		}
+
+		.table1, .table1 th, .table1 td {
+			border: 3px dotted slateblue;
+			padding: 15px;
+		}
+
+		.table2, .table2 th, .table2 td {
+			border: 5px double rebeccapurple;
+			padding: 25px;
+		}
+	</style>
+</head>
+<body>
+
+	<table >
+		<thead>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>			
+		</tbody>
+	</table>
+
+	<table class="table1">		
+		<tr>
+			<th colspan="2">Header 1</th>
+			<th>Header 2</th>
+			<th>Header 3</th>
+		</tr>
+		
+		
+		<tr>
+			<td>Data 1</td>
+			<td>Data 2</td>
+			<td>Data 3</td>			
+			<td>Data 4</td>
+		</tr>			
+	</table>
+
+	<table class="table2">		
+		<tr>
+			<th>Header 1</th>
+			<th>Header 2</th>
+			<th>Header 3</th>
+		</tr>		
+		<tr>
+			<td rowspan="2">Data 1</td>
+			<td>Data 2</td>
+			<td>Data 3</td>
+		</tr>
+		<tr>
+			<td>Data 1?</td>
+			<td>Data 2?</td>
+		</tr>			
+	</table>
+
+</body>
+</html>
