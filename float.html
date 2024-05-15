@@ -4,9 +4,92 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Float</title>
+	<style type="text/css">
+		div {
+			height: 100px;
+			background-color: forestgreen;
+			margin-bottom: 10px;
+		}
+
+		.box1 {
+			width: 50%;
+			background-color: red;
+			float: left;
+		}
+
+		.box2 {
+			width: 40%;
+			background-color: blue;
+			float: right;
+/*			float: left;*/
+		}
+
+		.box3 {
+			clear: both;
+		}
+
+		img {
+			height: 200px;
+			width: 200px;
+			border: 5px solid red;
+			object-fit: none;
+			object-position: top right;
+		}
+
+		.img1{
+			object-fit: cover;
+			object-position: center;
+		}
+
+		.img2 {
+			object-fit: contain;
+			object-position: 100px 50px;
+		}
+
+		p {
+			width: 40%;
+			border: 1px solid;
+			float: left;
+		}
+
+		.img5 {
+/*			float: left;*/
+			float: right;
+			margin: 10px;
+		}
+	</style>
 </head>
 <body>
+
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class="box4"></div>
+
+	<img src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png">
+	<img class="img1" src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png">
+	<img class="img2" src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png">
+	<div></div>
+
+	<p><img class="img5" src="https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 	
+
 
 </body>
 </html>
