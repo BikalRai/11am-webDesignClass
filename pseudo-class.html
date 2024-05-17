@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pseudo Class</title>
+	<style type="text/css">
+		a:link {
+			color: red;
+		}
+
+		a:visited {
+			color: green;
+		}
+
+		a:active {
+			color: cyan;
+		}
+
+		a:focus {
+			border: 2px solid double;
+		}
+
+		a:hover {
+			color: dodgerblue;
+		}
+
+
+		input:focus {
+			outline: none;
+			border: none;
+			border-bottom: 1px solid orangered;
+		}
+
+		input:hover {
+			background-color: red;
+		}
+
+		p:hover {
+			background-color: forestgreen;
+		}
+
+		ul li:first-child {
+			background-color: darkorchid;
+		}
+
+		ul li:last-child {
+			font-size: 2rem;
+			color: darkgray;
+		}
+
+		ul li:nth-child(3) {
+			background-color: lightslategray;
+			color: springgreen;
+			border: 1px solid;
+		}
+
+		ul li:nth-child(odd) {
+			font-size: 1.2rem;
+			border: 1px dotted;
+		}
+
+		input::placeholder {
+			color: red;
+			font-size: 2rem;
+		}
+	</style>
+</head>
+<body>
+
+	<a href="https://www.temu.com">My link</a>
+	<a href="https://www.google.com">Another link</a>
+
+	<input type="text" placeholder="some text" />
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+	</ul>
+
+</body>
+</html>
